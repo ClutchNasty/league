@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "league#index"
+  root "leagues#index"
   devise_for :users
   resources :leagues
 end
